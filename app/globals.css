@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.certificate-container {
+	position: relative;
+	width: 1000px;
+	height: 707px;
+  font-family: 'Orbitron', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.certificate-image {
+	width: 100%;
+	height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.overlay {
+	position: absolute;
+	color: #fff;
+	font-weight: 800;
+	white-space: nowrap;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.team {
+	top: 290px;
+	font-size: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.name {
+	top: 368px;
+	font-size: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
 }
