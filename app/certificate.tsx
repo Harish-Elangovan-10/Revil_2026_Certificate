@@ -191,8 +191,8 @@ export default function Certificate() {
               fontWeight: '600',
               color: '#FFFFFF',
               marginTop: '7px',
-              marginLeft: '114px',
-              width: '390px',
+              marginLeft: '75px',
+              width: '430px',
               textAlign: 'center',
             }}>
               {collegeName}
