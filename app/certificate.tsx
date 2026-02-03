@@ -187,12 +187,12 @@ export default function Certificate() {
               {name}
             </div>
             <div style={{
-              fontSize: '13px',
+              fontSize: '12px',
               fontWeight: '600',
               color: '#FFFFFF',
               marginTop: '7px',
-              marginLeft: '75px',
-              width: '430px',
+              marginLeft: '30px',
+              width: '475px',
               textAlign: 'center',
             }}>
               {collegeName}
