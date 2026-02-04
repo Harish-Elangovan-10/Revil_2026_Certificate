@@ -122,7 +122,7 @@ export default function Certificate() {
           >
             <option value="" disabled>Select Event/Workshop name</option>
             <option value="Capture The Flag">Capture The Flag</option>
-            <option value="Project Sherlock Homes: Logtrace">Project Sherlock Homes: Logtrace</option>
+            <option value="Project Sherlock: Log Trace">Project Sherlock: Log Trace</option>
             <option value="Beneath The Mask">Beneath The Mask</option>
             <option value="Crime Chronicles">Crime Chronicles</option>
             <option value="Paper Presentation">Paper Presentation</option>
